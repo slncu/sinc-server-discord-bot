@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --exit-child src/index.ts",
-    "build": "tsc --build tsconfig.json",
+    "build": "tsc",
     "heroku-prebuild": "tsc --build tsconfig.json",
-    "test": "pwd",
     "start": "node dist/index.js"
   },
   "repository": {
